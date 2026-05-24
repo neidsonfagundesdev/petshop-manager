@@ -37,7 +37,3 @@ class Animal:
 
     def get_dono(self):
         return self.dono.nome if self.dono else "Sem dono"
-        
-#cria um cliente
-cliente1 = Cliente("Michelle", "Avenida Santa Rita, caminho 55, casa 21", "(71 9 99946999)", "chellecressenti@gmail.com", "123.456.789-10")
-
